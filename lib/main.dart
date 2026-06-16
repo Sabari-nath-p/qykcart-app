@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:qykcart_app/Screens/AuthenticationScreen/AuthenticationScreen.dart';
+import 'package:qykcart_app/Screens/OrderDetailsScreen/OrderDetailsScreen.dart';
 
 void main() {
   runApp(QykcartApp());
@@ -18,7 +19,7 @@ class QykcartApp extends StatelessWidget {
         return GetMaterialApp(
           color: Color(0xff289229),
           theme: ThemeData(fontFamily: "Inter"),
-          home: AuthenticationScreen(),
+          home: Orderdetailsscreen(),
         );
       },
     );
